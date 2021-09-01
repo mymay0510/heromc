@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="ko" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Song+Myung&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title> 메모장 </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      * {
+          font-family: 'Song Myung', serif;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus icon'></i>
+        <div class="logo_name">영웅</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class='bx bxs-chalkboard'></i>
+          <span class="linksname">스토리</span>
+        </a>
+         <span class="tooltip">스토리</span>
+      </li>
+      <li>
+       <a href="character.html">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">등장인물</span>
+       </a>
+       <span class="tooltip">등장인물</span>
+     </li>
+     <li>
+       <a href="minecraft.html">
+        <i class='bx bx-package' ></i>
+        <span class="linksname">마크 정보</span>
+       </a>
+       <span class="tooltip">마인크래프트 정보</span>
+     </li>
+     <li>
+       <a href="how.html">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">알아보자</span>
+       </a>
+       <span class="tooltip">알아보자</span>
+     </li>
+     <li>
+       <a href="discord.html">
+        <i class='bx bxl-discord' ></i>
+        <span class="linksname">디코서버 정보</span>
+       </a>
+       <span class="tooltip">디코서버 정보</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">주문</span>
+       </a>
+       <span class="tooltip">주문</span>
+     </li>
+     <li>
+       <a href="info.html">
+        <i class='bx bxs-extension'></i>
+         <span class="links_name">정보</span>
+       </a>
+       <span class="tooltip">정보</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">설정</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">팀 키마스톤</div>
+             <div class="job">For You</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">여기는 메이의 메모장입니다. <br>
+      현재로서 알아둘 이유가 없으나 보고 싶다면 보세요. 경고했습니다! <br>
+      9월 3일이나 4일에 할까싶음. </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
